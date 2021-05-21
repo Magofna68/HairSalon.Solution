@@ -1,0 +1,38 @@
+body {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #1b3a4b;
+}
+
+p {
+  text-align: left;
+  color: white;
+  text-size-adjust: 20px;
+  font-size: large;
+  font-family: fantasy;
+  background: #212f45;
+  color: #1985a1;
+}
+
+h1 {
+  background: #272640;
+  font-family: fantasy;
+  text-align: center;
+  color: #06b178;
+}
+
+h3 {
+  background: #1b3a4b;
+  text-align: justify;
+  font-family: courier;
+  color: #9999a1;
+}
+
+html {
+  background: #9999a1;
+}
+
+main {
+  font-family: courier;
+}
