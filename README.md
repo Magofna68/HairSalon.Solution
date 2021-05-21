@@ -1,20 +1,18 @@
-# Description
+# Hair Salon
 
-#### _Brief Description_
+#### Web app that will allow the user to add and track clients and stylists to business model.
 
 #### By _**Brandon Magofna**_
 
 ## Description
 
-_App will ..._
+_App will act as a tool for the owner to use at their disposal. App will host stylists with the ability to add clients and stylists.
 
 ### Software Requirements
 
 1. Internet browser
 2. [Node](https://nodejs.org/en/)
 3. A code editor like VS Code or Atom to view or edit the codebase.
-
-# API-Key?
 
 ### Installation
 
@@ -43,13 +41,12 @@ _Please reach out through my GitHub account._
 ## Technologies Used
 
 - HTML
-- JavaScript
+- C#
 - VS Code
-- Webpack
-- Node
-- Babel
-- Eslint
-- Bootstrap
+- .Net
+- Entity
+- Razor
+
 
 
 ### License
