@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using ToDoList.Models;
+using HairSalon.Models;
 
-namespace Salon
+namespace HairSalon
 {
   public class Startup
   {
@@ -25,14 +25,9 @@ namespace Salon
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<ToDoListContext>(options => options
+        .AddDbContext<HairSalonContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
-    // Here we've added a form of Entity that understands MySQL as a service.
-
-    // We've also configured that service to use a particular database context with the AddDbContext() method, which will be a representation of our database.
-
-    // We further configure Entity Framework to use our default connection by passing it to the UseMySQL() method.
 
     public void Configure(IApplicationBuilder app)
     {
