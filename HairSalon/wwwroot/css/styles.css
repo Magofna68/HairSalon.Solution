@@ -30,8 +30,15 @@ h3 {
 }
 
 html {
-  background: #3bceac;
+  background: black;
+  margin: auto;
+  padding: 5%;
+  border: #06b178;
+  border-style: solid;
+  border-top-color: #53d8fb;
+  border-bottom-color: #53d8fb;
 }
+
 
 #quote1 {
   font-family: courier;
@@ -44,14 +51,14 @@ html {
 
 #quote2 {
   font-family: courier;
-  color: #00a6fb;
+  color: #53d8fb;
   text-align: right;
   font-style: italic;
 }
 
 #quote3 {
   font-family: courier;
-  color: #00a6fb;
+  color: #53d8fb;
   text-align: left;
   font-style: italic;
 }
