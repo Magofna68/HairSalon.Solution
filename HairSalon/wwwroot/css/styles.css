@@ -6,12 +6,11 @@ body {
 }
 
 p {
-  text-align: left;
+  text-align: center;
   color: white;
   text-size-adjust: 20px;
   font-size: large;
-  font-family: fantasy;
-  background: #212f45;
+  font-family: courier;
   color: #1985a1;
 }
 
@@ -20,19 +19,71 @@ h1 {
   font-family: fantasy;
   text-align: center;
   color: #06b178;
+  font-size: xxx-large;
 }
 
 h3 {
   background: #1b3a4b;
-  text-align: justify;
+  text-align: center;
   font-family: courier;
   color: #9999a1;
 }
 
 html {
-  background: #9999a1;
+  background: #3bceac;
 }
 
-main {
+#quote1 {
   font-family: courier;
+  color: #17c3b2;
+  text-align: center;
+  font-style: italic;
+  background: #272640;
+  
+}
+
+#quote2 {
+  font-family: courier;
+  color: #00a6fb;
+  text-align: right;
+  font-style: italic;
+}
+
+#quote3 {
+  font-family: courier;
+  color: #00a6fb;
+  text-align: left;
+  font-style: italic;
+}
+
+li {
+  color: #3bceac;
+  font-size: medium;
+  font-weight: bold;
+}
+
+input {
+  background: black;
+
+}
+
+input.bn.btn-default {
+  background: #3bceac;
+}
+
+select#StylistId {
+  color: #06b178;
+  background: #272640;
+  margin-right: 2%;
+  font-size: medium;
+  padding: 1%;
+}
+
+label {
+  margin-right: .75%;
+  margin-left: 2%;
+}
+
+a {
+  color: #06b178;
 }
